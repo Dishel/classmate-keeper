@@ -1,0 +1,78 @@
+/* =================================== */
+/* Main CSS for Classmate Keeper */
+/* =================================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+main {
+  background: #f4f8fb;
+  min-height: 100vh;
+  padding: 2rem 0;
+  padding-bottom: 5rem;
+}
+/* =================================== */
+/* Sidebar */
+/* =================================== */
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  height: 100%;
+  overflow-y: auto;
+}
+/* =================================== */
+/* Responsive CSS for mobile nav */
+/* =================================== */
+.mobile-nav {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+@media (max-width: 767.98px) {
+  .sidebar {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none !important;
+  }
+}
+/* =================================== */
+/* Main */
+/* =================================== */
+main {
+  padding: 2rem;
+  background-color: #f4f8fb;
+}
+/* =================================== */
+/* Footer */
+/* =================================== */
+footer {
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    position: relative;
+    padding: 1rem 0;
+    bottom: 60px;
+  }
+}
+
