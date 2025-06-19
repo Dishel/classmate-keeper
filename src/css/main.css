@@ -17,11 +17,14 @@ main {
 /* Sidebar */
 /* =================================== */
 .sidebar {
-  width: 250px;
+  width: 200px;
   background-color: #333;
   color: #fff;
-  height: 100%;
   overflow-y: auto;
+}
+
+.sidebar .nav .nav-link {
+  padding-left: 0;
 }
 /* =================================== */
 /* Responsive CSS for mobile nav */
@@ -45,22 +48,27 @@ main {
     display: none !important;
   }
 }
+
+.mobile-nav .nav .nav-item .nav-link {
+  padding: 0;
+}
 /* =================================== */
 /* Main */
 /* =================================== */
 main {
   padding: 2rem;
-  background-color: #f4f8fb;
 }
 /* =================================== */
 /* Footer */
 /* =================================== */
 footer {
+  margin-top: 30px;
   text-align: center;
   padding: 1rem;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
+  background-color: #f4f8fb;
 }
 footer p {
   margin: 0;
@@ -72,7 +80,7 @@ footer p {
   footer {
     position: relative;
     padding: 1rem 0;
-    bottom: 60px;
+    bottom: 40px;
   }
 }
 

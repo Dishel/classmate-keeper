@@ -16,9 +16,9 @@
   $segments = explode('/', trim($currentUrl, '/'));
   $lastSegment = end($segments);
   if ($lastSegment !== "login") { ?>
-    <div class="d-flex" style="min-height:100vh;background:#f4f8fb;">
+    <div class="d-flex">
       <!-- Sidebar (Desktop) -->
-      <nav class="sidebar bg-white border-end p-3 d-none d-md-block" style="width:240px;min-height:100vh;">
+      <nav class="sidebar bg-white border-end p-3 d-none d-md-block">
         <div class="d-flex align-items-center mb-4">
           <img src="/src/img/logo.png" alt="Classmate Keeper Logo" style="width:32px;height:32px;" class="me-2">
           <span class="fw-bold fs-5">Classmate Keeper</span>
