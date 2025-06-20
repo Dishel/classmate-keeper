@@ -17,7 +17,7 @@ require_once '../layouts/header.php'; ?>
   <div class="form-group mb-5">
     <input type="text" class="form-control" id="search" placeholder="Search for courses...">
   </div>
-  <div class="row g-4">
+  <div class="row g-4" id="coursesList">
     <div class="col-sm-4">
       <div class="card">
         <div class="card-body">
@@ -96,3 +96,4 @@ require_once '../layouts/header.php'; ?>
   </div>
 </div>
 <?php require_once '../layouts/footer.php'; ?>
+<script src="/src/js/courses.js"></script>
