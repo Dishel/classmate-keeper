@@ -5,8 +5,8 @@
       <img class="d-block mx-auto mb-3" src="" alt="Your Company" style="height: 40px;">
       <h2 class="text-center fs-4 fw-bold text-dark">Classmate Keeper</h2>
     </div>
-
     <div class="mx-auto w-100" style="max-width: 400px;">
+      <div class="alert alert-danger" id="error-message" style="display: none;"></div>
       <form action="#" method="POST">
         <div class="mb-3">
           <label for="email" class="form-label">Email address</label>
@@ -35,3 +35,4 @@
 </main>
 
 <?php require_once '../layouts/footer.php'; ?>
+<script src="/src/js/login.js"></script>
