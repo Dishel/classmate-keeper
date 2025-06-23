@@ -84,3 +84,13 @@ footer p {
   }
 }
 
+/* =================================== */
+/* CARDS */
+/* =================================== */
+.card .options {
+  float: right;
+}
+
+.card .options .dropdown-toggle::after {
+  border: 0;
+}
