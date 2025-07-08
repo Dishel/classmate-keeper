@@ -91,6 +91,14 @@ footer p {
   float: right;
 }
 
-.card .options .dropdown-toggle::after {
+.options .dropdown-toggle::after {
   border: 0;
+}
+
+/* =================================== */
+/* DATATABLES */
+/* =================================== */
+.datatable .th,
+.datatable .td {
+  white-space: nowrap;
 }
